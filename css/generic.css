@@ -1,0 +1,59 @@
+html,body {
+height:100%   
+    
+}
+
+.no-padding {
+padding: 0; 
+    
+}
+
+#hero {
+margin-top:50px;
+background:url('../img/wine13.jpg');
+background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;   
+    height:100%;
+    width:100%;
+    text-align:center;
+    display:table;
+    padding:220px 0;
+}
+
+#hero > div {
+display:table-cell;
+vertical-align:middle;   
+}
+#hero h1, p {
+color:#fff;    
+}
+#hero div a {
+color:#fff;    
+}
+
+
+/*phone*/
+
+@media (max-width:768px){
+    
+ #hero p {
+font-size:20px;    
+}
+    
+}
+
+/*tablet*/
+@media (min-width:769px) and (max-width:992px){
+ #hero p {
+color:#000;    
+}
+    
+}
+
+
+
+
+
+
+
