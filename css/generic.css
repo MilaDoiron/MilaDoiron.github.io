@@ -9,8 +9,33 @@ html {
     font-family: 'Titillium Web','Roboto',Helvetica,Arial,sans-serif;
 }
 
-.title-5em {
-        font-size: 5em;
+.navbar-header .navbar-brand > a > img, .navbar-header .navbar-brand { 
+    width:80px;
+    height:auto;
+    }
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav  {
+    padding-top:20px;
+    margin-left: 50px;
+    text-decoration: none;
+    color:#444;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;  
+   
+} 
+#last-link {
+border-color:none;    
+}
+
+.navbar {
+    background:#000;
+    border-color:#000;
+}
+
+.navbar a:hover {
+    border-bottom: 2px  #fff;
+    
 }
 
 
@@ -49,6 +74,7 @@ opacity:.75;
     margin-top:100px;
     font-size:27px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .main-story {
@@ -77,12 +103,26 @@ border-right-color: #444;
     padding-right: 20px;
     font-size: 16px;
     padding-left: 5px;
+    margin-bottom:20px;
 }
 
 .more-stories-title {
 color:#5d7fb9;  
 font-weight: 550;
 }
+
+.more-stories-link {
+padding:4px 4px; 
+background-color:#5d7fb9;
+    color:#fff;
+    font-size:20px;
+    margin-right:15px;
+    border-radius: 5px; 
+    margin-left:150px;
+}
+
+
+
 
 .twitter-box {
 margin-top:30px; 
@@ -91,7 +131,7 @@ margin-top:30px;
 
 .banner {
     color:#5d7fb9;
-    font-size: 40px;
+    font-size: 35px;
     display:table-cell;
     text-align:center;
     padding: 10px 0;
@@ -99,8 +139,6 @@ margin-top:30px;
     vertical-align:middle;
     font-weight: 700; 
 }
-
-
 
 .picture-link {
 margin-top: 50px; 
@@ -181,16 +219,19 @@ font-weight:800;
 }
 
 .mars-title {
+    padding-bottom:7px;
 margin-top: 90px;  
 font-size: 33px;
     font-weight:600;
+    border-style: none;
+    border-bottom: thin solid #fff;
 }
 
 .mars-story {
 margin-top: 30x;
 border:none; 
 font-size: 20px;
-
+margin-bottom:30px;
 }
 
 .mars-img {
@@ -198,24 +239,48 @@ font-size: 20px;
  margin-left:100px;   
 }
 
-
-
-/*
-
-#value {
-    padding: 80px 0;
-    background: #eee;
+.mars-link {
+padding:6px 6px; 
+background-color:#5d7fb9;
+    color:#fff;
+    font-size:25px;
+    margin-right:15px;
+    border-radius: 5px; 
+    margin-left:150px;    
 }
 
-.img-caption {
-    margin-top: 10px;
+.mars-banner {
+padding-left:85px; 
+    padding-bottom:40px;
 }
 
-.img-caption date {
-    font-style: italic;
-    font-weight: bold;
+.location-title {
+font-size: 30px;
+color:#5d7fb9;
+    margin-bottom:25px;
 }
-*/
+
+.location-button {
+padding:4px 4px; 
+background-color:#5d7fb9;
+    color:#fff;
+    font-size:20px;
+    margin-right:15px;
+    border-radius: 5px;
+    
+}
+
+.map {
+padding-bottom: 70px;    
+}
+
+
+
+
+
+
+
+
 
 
 /*Phone*/
@@ -250,132 +315,3 @@ font-size: 20px;
         margin-top: 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*body {
-    height: 100%;
-    
-}
-
-.navbar {
-    background:#000;   
-}
-
-.navbar-brand {
-width: 110px;
-    height:100%;
-}
-
-.navbar-nav {
-margin-top:50px;    
-}
-
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav  {
-    margin-left: 15px;
-    text-decoration: none;
-    color:#fff;
-    font-size: 18px;
-}
-
-.navbar-default .navbar-nav li {
-padding: 10px 15px;
-    border-style: solid;
-    border-right:1px #585858;    
-}
-
-.no-padding {
-    padding: 0;
-}
-
-#hero {
-    margin-top: 50px;
-    background: url('../img/Space-Wallpaper-Hd-Mac.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    display: table;
-    padding: 220px 0;
-}
-
-#hero > div {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#hero h1,
-p {
-    color: #fff;
-}
-
-#hero div a {
-    color: #fff;
-}
-
-
-
-@media (max-width:768px) {
-    #hero p {
-        font-size: 20px;
-    }
-}
-
-
-
-@media (min-width:769px) and (max-width:992px) {
-    #hero p {
-        color: #000;
-    }
-}
-
-*/
