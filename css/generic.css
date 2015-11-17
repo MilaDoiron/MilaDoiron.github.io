@@ -143,6 +143,7 @@ html {
 .picture-link {
     margin-top: 50px;
     margin: 1px 0;
+    border-radius: 6px;
 }
 
 .pic-link-1 {
